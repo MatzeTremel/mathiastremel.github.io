@@ -109,7 +109,7 @@ p{
 #welcome{
     margin-top: 20px;
     background-image:  linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)),
-    url(../img/Green\ Garden\ Hotel.jpg);
+    url(img/Green\ Garden\ Hotel.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 600px;
