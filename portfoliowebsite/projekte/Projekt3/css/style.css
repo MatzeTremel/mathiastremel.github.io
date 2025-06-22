@@ -1,0 +1,320 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 ,h2 ,h3 ,h4 ,h5 ,h6{
+    padding-bottom: 20px;
+}
+
+a{
+    color: #3A3A3A;
+    text-decoration: none;
+}
+p{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+/*----------Hilfsklassen---------*/
+
+.standard-container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.text-highlighted{
+    color: coral;
+}
+
+.btn{
+    display: block;
+    font-size: 20px;
+    background-color: #46818b62;
+    color: coral;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 5px;
+    margin:  15px 0px;
+
+}
+.btn:hover{
+    background-color: rgba(255, 127, 80, 0.486);
+    color:white;
+}
+
+
+/*----------Navigationsleiste---------*/
+
+#main-nav{
+  
+    background-image:  linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)),
+    url(../img/navbild.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
+#main-nav{
+    background-color: #3A3A3A;
+    
+}
+
+#main-nav:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#main-nav h1{
+    float: left;
+    color: coral;
+    padding: 60px;
+    font-size: 40px;
+    
+}
+
+#main-nav a{
+    color: white;
+}
+
+#main-nav ul{
+    float:right;
+    list-style: none;
+}
+
+#main-nav ul li{
+    float: left;
+}
+
+#main-nav ul li a {
+    display: block;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+}
+
+#main-nav ul li a:hover{
+    background-color: coral;
+    color: white;
+}
+#main-nav ul li a.active-page{
+    background-color: coral;
+    color: white;
+}
+
+
+/*----------Willkommen SAektion---------*/
+
+#welcome{
+    margin-top: 20px;
+    background-image:  linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)),
+    url(../img/Green\ Garden\ Hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+
+}
+
+#welcom:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#welcome .welcome-content{
+    float: right;
+    width: 70%;
+    color: white;
+    padding: 130px 50px;
+}
+
+#welcome .welcome-img{
+    float: left;
+    width: 30%;
+    padding-top: 150px;
+}
+#welcome .welcome-img img{
+    width: 100%;
+    border-radius: 10%;
+}
+
+#welcome .welcome-content h2{
+    font-size: 40px;
+
+}
+
+
+
+/*----------Skill Sektiom---------*/
+#skills{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+#skills:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+#skills .skill{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 35px;
+}
+
+#skills .material-symbols-outlined{
+    font-size: 100px;
+    color: coral;
+
+}
+
+/*----------footer---------*/
+
+#main-footer{
+    background-color: #3A3A3A;
+    min-width: 120px;
+    padding: 52px;
+}
+#main-footer p{
+    text-align: center;
+    color: white;
+
+}
+#main-footer p a {
+    color: white;
+}
+/*--------About1 Sektion----------*/
+#about1{
+    margin-top: 20px;
+    background-image:  linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)),
+    url(../img/UrlaubZimmer1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+
+}
+
+#about1{
+    margin-top: 20px;
+    background-color: #3A3A3A;
+    padding: 50px;
+    padding-bottom: 50px;
+}
+#about1:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#about1 .about-content{
+    float: left;
+    width: 70%;
+    color: white;
+    padding: 20px;
+
+}
+
+#about1 .about-img{
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
+#about1 .about-img img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+#about1 .about-content h2{
+    font-size: 40px;
+}
+/*--------About2 Sektion----------*/
+#about2{
+    margin-top: 20px;
+    background-image:  linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)),
+    url(../img/UrlaubRutsche1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+#about2{
+    margin-top: 20px;
+    background-color: #3A3A3A;
+    padding: 50px;
+    padding-bottom: 50px;
+}
+#about2:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#about2 .about-content{
+    float: right;
+    width: 70%;
+    color: white;
+    padding: 20px;
+
+}
+
+#about2 .about-img{
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
+#about2 .about-img img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+#about2 .about-content h2{
+    font-size: 40px;
+}
+/*--------About3 Sektion----------*/
+#about3{
+    margin-top: 20px;
+    background-image:  linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)),
+    url(../img/taxiHintergrund.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+#about3{
+    margin-top: 20px;
+    background-color: #3A3A3A;
+    padding: 50px;
+    padding-bottom: 50px;
+}
+#about3:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#about3 .about-content{
+    float: left;
+    width: 70%;
+    color: white;
+    padding: 20px;
+
+}
+
+#about3 .about-img{
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
+#about3 .about-img img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+#about3 .about-content h2{
+    font-size: 40px;
+}
