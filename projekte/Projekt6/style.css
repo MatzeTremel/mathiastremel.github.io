@@ -1,0 +1,34 @@
+*{
+    text-align: center;
+}
+#header{
+    margin: auto;
+    margin-bottom: 50px;
+    background-color:grey ;
+    height: 150px;
+    
+}
+#input{
+
+    margin-top: 20px;
+}
+
+#header h1{
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+#body{
+
+    background-color: darkgray;
+}
+.card{
+
+    margin: auto;
+    text-align: center;
+    width: 400px;
+}
+#link{
+    padding: auto;
+    text-decoration: none;
+}
